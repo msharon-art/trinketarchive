@@ -1,0 +1,158 @@
+/* font: import ================================================ */
+@font-face {
+  font-family: 'variableFont';
+  src: url('./font/RobotoFlex.ttf') format('truetype');
+}
+
+
+/* Layout ================================================ */
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+}
+
+body {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  transition: background-color 1s ease-in-out;
+  background-color:  rgb(236, 179, 198);
+  /* background-image: url('./img/tiri_oracle1.jpg'); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+/* =========================================================== */
+/* Teachable Machine: Webcam Container */
+/* =========================================================== */
+#webcam-container {
+  position: fixed;
+  top: 225px;
+  left: 225px;
+  width: 350px; /* ✅ #Webcam Width */ 
+  height: 350px; /* ✅ #Webcam Height */ 
+  -webkit-transform: translate(-50%, -50%) scale(1, 1);
+  -moz-transform: translate(-50%, -50%) scale(1, 1);
+  -ms-transform: translate(-50%, -50%) scale(1, 1);
+  -o-transform: translate(-50%, -50%) scale(1, 1);
+  transform: translate(-50%, -50%) scale(1, 1);
+  place-items: center;
+  /* z-index: -1; */
+  aspect-ratio: 1;
+  clip-path: 
+  shape(
+    from 50% 91%,
+    line to 90% 50%,
+    arc to 50% 9%  of 1%,
+    arc to 10% 50% of 1%
+  );
+}
+
+#colored-box {
+  background-color:rgb(237, 149, 193);
+  width: 475px;
+  height: 100%;
+  z-index: -1;
+}
+canvas {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* border-radius: 10px; */
+} 
+#image {
+  position: fixed;
+  left: 500px;
+  width: 300px;
+  width: 17%;
+}
+#container {
+  overflow-wrap: break-word;
+}
+
+
+/* text ================================================ */
+#mainText1 {
+  position: fixed;
+  top: 175px;
+  left: 800px;
+
+  font-family: "lores-21-serif", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+  text-align: left;
+  letter-spacing: 0;
+  line-height: 22px;
+  text-wrap: nowrap;
+  
+	transition: font-size 1s ease-in-out, font-variation-settings 1s ease-in-out;
+}
+
+#mainText2 {
+  position: fixed;
+  top: 20px;
+  left: 800px;
+
+  font-family: 'pf-pixelscript';
+  font-size: 75px;
+  color: white;
+  text-align: left;
+  letter-spacing: 0;
+  line-height: 200px;
+  text-wrap: nowrap;
+  
+	transition: font-size 1s ease-in-out, font-variation-settings 1s ease-in-out;
+}
+#title {
+  position: fixed;
+  bottom: 250px;
+  left: 60px;
+  font-family: "pf-pixelscript", sans-serif;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+#description {
+  position: fixed;
+  bottom: 150px;
+  left: 60px;
+  font-family: "lores-21-serif", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+  text-align: left;
+}
+
+#border{
+  position: fixed;
+  left: 45px;
+  bottom: 340px;
+}
+#border2{
+  position: fixed;
+  left: 45px;
+  bottom: 100px;
+}
+
+.variable1 {
+  font-variation-settings: "opsz" 144, "wght" 1000, "GRAD" 150, "wdth" 151, "slnt" 0, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+  color: red;
+}
+
+.variable2 {
+  font-variation-settings: "opsz" 8, "wght" 100, "GRAD" -200, "wdth" 151, "slnt" -10, "XOPQ" 96, "YOPQ" 79, "XTRA" 468, "YTUC" 712, "YTLC" 514, "YTAS" 750, "YTDE" -203, "YTFI" 738;
+  color: blue;
+}
+
+/* Image ================================================ */
