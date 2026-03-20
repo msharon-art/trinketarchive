@@ -99,7 +99,7 @@
       else if (maxIndex === 1) {
          document.querySelector("#mainText1").className = "variable2";
         document.querySelector("#mainText2").textContent = "Sonny Angel"; 
-         document.querySelector("#mainText1").innerHTML = "My parents got me this Sonny Angel for Christmas 2024. I wanted <br> the cat series so bad but I couldn't find it anywhere and hadn’t <br> seen any Sonny Angels in ages. I was so excited to open this one <br> because it’s the one I was really hoping I would pull because it looks <br> just like my cat Rex. Although Rex’s nose is pink. But they’re both grey <br> tabby cats. My dad HATES Sonny Angels, though. He calls them 'those <br> naked babies' and when my parents were buying it for me, he was asking <br> if you also have to buy clothes for them. My mom had to explain that no <br> they don’t have clothes and he said 'that’s really weird.' But he'll still buy <br> them for me anyway.";
+         document.querySelector("#mainText1").innerHTML = "My parents got me this Sonny Angel for Christmas <br> 2024. I wanted the cat series so bad but I <br> couldn't find it anywhere and hadn’t seen any <br> Sonny Angels in ages. I was so excited to open this <br> one because it’s the one I was really hoping I <br> would pull because it looks just like my cat Rex. <br> Although Rex’s nose is pink. But they’re both grey <br> tabby cats. My dad HATES Sonny Angels, though. He <br> calls them 'those naked babies' and when my parents <br> were buying it for me, he was asking if you also have <br> to buy clothes for them. My mom had to explain that <br> no they don’t have clothes and he said 'that’s <br> weird.' But he'll still buy them for me anyway.";
         document.querySelector("#image").src = "./img/sonnyshelf.png";
       //   document.body.style.backgroundColor = "#f15ea5";
       } 
@@ -107,7 +107,7 @@
       //   document.querySelector("#mainText1").className = "variable1";
         document.querySelector("#mainText2").textContent = "Nun";
         document.querySelector("#image").src = "./img/nunshelf.png";
-        document.querySelector("#mainText1").innerHTML = "I got this nun porcelain figurine at my favorite antique store, <br> Miller’s Crossing. I thought she was cute, but I thought it would <br> be kinda weird if I got a nun figurine. But I walked around the <br> entire store thinking about her and when I was walking towards <br> the check out I had to turn around and grab her. I was raised <br> Catholic so I do have an interest in weird religious objects, <br> but wasn’t every cool artsy emo girl also raised Catholic? <br> That makes it chill to me.";
+        document.querySelector("#mainText1").innerHTML = "I got this nun porcelain figurine at my favorite <br> antique store, Miller’s Crossing. I thought she <br> was cute, but I thought it would be kinda <br> weird if I got a nun figurine. But I walked around the <br> entire store thinking about her and when I was <br> walking towards the check out I had to turn around <br> and grab her. I was raised Catholic so I do have an <br> interest in weird religious objects, but wasn’t <br> every cool artsy emo girl also raised Catholic? <br> That makes it chill to me.";
       //   document.body.style.backgroundColor = "#ff008c";
         
       } 
@@ -115,14 +115,14 @@
       //   document.querySelector("#mainText1").className = "variable1";
         document.querySelector("#mainText2").textContent = "Bunny";
          document.querySelector("#image").src = "./img/bunshelf.png";
-         document.querySelector("#mainText1").innerHTML = "I picked up this Bunny Jellycat in a children’s store in Venice <br> when I was studying abroad there. When I saw her I knew I <br> had to get her because she was specifically designed, produced, <br> and sold with me in mind idgaf. I LOVE bunnies and she’s holding <br> a cutie little love letter? Well yes! I had already bought a <br> commemorative Jellycat in Venice (a little cake) but I knew I <br> couldn’t pass her up. I’ve actually never seen this particular Jellycat <br> since so I don’t know what’s up with that. Thank god I got it while I could."
+         document.querySelector("#mainText1").innerHTML = "I picked up this Bunny Jellycat in a children’s <br> store in Venice when I was studying abroad there. <br> When I saw her I knew I had to get her because <br> she was specifically designed, produced, and sold <br> with me in mind idgaf. I LOVE bunnies and <br> she’s holding a cutie little love letter? Well yes! <br> I had already bought a commemorative Jellycat <br> in Venice (a little cake) but I knew I couldn’t pass <br> her up. I’ve actually never seen this particular <br> Jellycat since so I don’t know what’s up with <br> that. Thank god I got it while I could."
       //   document.body.style.backgroundColor = "#00ff15";
       } 
          else if (maxIndex === 4) {
       //   document.querySelector("#mainText1").className = "variable1";
         document.querySelector("#mainText2").textContent = "Teacup";
          document.querySelector("#image").src = "./img/teashelf.png";
-         document.querySelector("#mainText1").innerHTML = "My parents and I love to go antique shopping. I used to hate <br> it as a kid, but now that I have a room to decorate I LOVE going. <br> PA, West Virginia, and Ohio have the best antique stores and I <br> stand by that. We went to a bunch of different ones shopping <br> for my apartment and I found this teacup. It matches the green <br> and pink of my room perfectly. I think teacups are so cute and I <br> love all the different patterns. I've never really been a coffee <br> person but I love all kinds of tea, except hibiscus. Gross. I have a <br> little teacup charm I also got at an antique store in West Virginia <br> that I wear on my charm necklace."
+         document.querySelector("#mainText1").innerHTML = "My parents and I love to go antique shopping. <br> I used to hate it as a kid, but now that I have <br> a room to decorate I LOVE going. PA, West Virginia, <br> and Ohio have the best antique stores and I stand <br> by that. We went to a bunch of different ones <br> shopping for my apartment and I found this teacup. <br> It matches the green and pink of my room perfectly. <br> I think teacups are so cute and I love all the <br> different patterns. I've never really been a coffee <br> person but I love all kinds of tea, except hibiscus. <br> Gross. I have a little teacup charm I also got at <br> an antique store in West Virginia that I wear on <br> my charm necklace."
       //   document.body.style.backgroundColor = "#00ff15";
       } 
 
